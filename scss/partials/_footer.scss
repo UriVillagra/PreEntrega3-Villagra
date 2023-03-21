@@ -1,0 +1,33 @@
+@use './variables';
+/*FOOTER*/
+
+footer {
+    background-image: variables.$header-image;
+    height: 12rem;
+    margin-top: 2rem;
+    div {
+        p {
+            font-size: 2rem;
+            margin-left: 3rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: variables.$text-color;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        
+        li {
+            list-style: none;
+            margin: 2rem;
+            img {
+                height: 4rem;
+
+            }
+            &:hover {
+                transform: scale(1.2);
+                transition: 200ms;
+            }
+        }
+    }
+}

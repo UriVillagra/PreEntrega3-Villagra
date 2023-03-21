@@ -1,0 +1,77 @@
+@use './partials/globales';
+@use './partials/variables';
+@use './partials/header';
+@use './partials/main';
+@use './partials/footer';
+@use './partials/pages';
+@use './partials/mediaq';
+
+
+
+
+
+
+
+/* cambios de resolucion responsive */
+
+// @media screen and (max-width: 1200px) {
+
+//     h1 {
+//         font-size: 3rem;
+//     }
+//     .imagenes {
+//         width: 100%;
+//         height: auto;
+
+//     }
+//     .posters{
+//         height: auto;
+//         width: 100%;
+//     }
+//     .img_container {
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+//     iframe {
+//         width: 100%;
+//         height: 100%;
+//     }
+//     .spotify {
+//         width: 100%;
+//         height: 600px;
+//     }
+//     .texto {
+//         height: 350px;
+//         width: 100%;
+//     }
+//     .video {
+//         height: 600px;
+//         width: 100%;
+//     }
+//     .video_c_container {
+//         display: flex;
+//         height: 400px;
+//         width: 100%;
+//         flex-direction: row;
+//         justify-content: space-evenly;
+//     }
+
+//     .video_c{
+//         height: 100%;
+//         width: 80%;
+//     }
+
+//         .text_container {
+//         height: 380px;
+//     }
+//     .poster {
+//         width: 100%;
+//         height: 100%;
+//     }
+// }
+
+
+
+

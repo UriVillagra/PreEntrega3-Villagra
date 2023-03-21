@@ -1,0 +1,131 @@
+@use './variables';
+/*PAGES*/
+
+main {
+    section {
+        .playlist {
+            margin-left: 1.5rem;
+            width: 300px;
+            height: 700px;
+            iframe {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+        .playlist__text {
+        background-color: rgb(177, 255, 98);
+            p {
+                font-size: 3rem;
+                margin-left: 2rem;
+                font-family: fantasy;
+                color: variables.$text-color;
+            
+            }
+        }
+        div {
+        
+            .pelis_text {
+                font-size: 2.5rem;
+                font-family: fantasy;
+                text-decoration: none;
+                color: variables.$text-color;
+            }
+            
+            
+        }
+        .games {
+            width: 500px;
+            margin-left: 2rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .game-title {
+            margin-top: 2rem;
+            margin-left: 2rem;
+            font-size: 2.5rem;
+            width: 500px;
+            color: variables.$text-color;
+        }
+        .game-text {
+            font-size: 2rem;
+            font-family: fantasy;
+
+        }
+        .img-games {
+            &:hover {
+                transform: scale(1.05);
+                transition: 100ms;
+            }
+        }
+        .contacto-container {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 3rem;
+                width: 800px;
+                font-family: 'Russo One', sans-serif;
+                background-image: linear-gradient(to left, rgb(108, 194, 255), rgb(0, 110, 255));
+                padding: 3rem;
+                border: solid 0.2rem;
+            }
+
+        }
+        .links-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 8rem;
+            margin-top: 5rem;
+            .links {
+                &:hover {
+                    transform: scale(1.2);
+                    transition: 300ms;
+                    a {
+                        background-color: #00FFFF;
+                    }
+                    
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    background-color: rgb(72, 153, 253);
+                    margin-left: 3rem;
+                    font-size: 2.5rem;
+                    padding: 1rem;
+                    border: solid;
+                    font-family: fantasy;
+
+                }
+            }
+        }
+    }
+    .wakanda-container{
+        margin-left: 2rem;
+        width: 200px;
+        a {
+            font-size: 5rem;
+            color: black;
+            font-family: 'Russo One', sans-serif;
+        }
+        &:hover {
+            transform: scale(1.2);
+            transition: 300ms;
+        }
+    }
+    .reseñas {
+        margin-left: 2rem;
+        color: variables.$text-color;
+    }
+    .trailers {
+        width: 600px;
+        height: 400px;
+        margin-left: 6rem;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,632 @@
+@charset "UTF-8";
+/* globales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #9BD1E5;
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 14remS;
+}
+header nav .multimediando_logo {
+  height: 8rem;
+  width: 35rem;
+}
+header nav .multimediando_logo:hover {
+  transform: scale(1.02);
+  transition: all 600ms;
+}
+header nav div {
+  background-image: linear-gradient(to left, #00FFFF, #FF00FF);
+}
+header nav div li {
+  margin-left: 3rem;
+}
+header nav div li:hover {
+  transform: scale(1.5);
+  transition: all 600ms;
+}
+header nav div li .nav_button {
+  height: 5rem;
+  width: 10rem;
+  margin-left: 4rem;
+}
+
+/*MAIN*/
+main section article div a {
+  text-decoration: none;
+}
+main section article div h1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Russo One", sans-serif;
+  background-image: linear-gradient(to right, rgb(36, 200, 255), rgb(111, 255, 111));
+  border: solid 0.5rem;
+  color: black;
+}
+main section article div h2 {
+  font-size: 2.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 40rem;
+  height: 8rem;
+  background-color: aqua;
+  border: solid 0.2rem;
+  font-style: oblique;
+}
+main section article div p {
+  font-size: 3rem;
+  margin-left: 5rem;
+  margin-top: 4rem;
+  font-family: "Bangers", cursive;
+  text-decoration: underline;
+  color: black;
+}
+main section article .img_container {
+  height: auto;
+  width: 450px;
+}
+main section article .img_container img {
+  height: 100%;
+  width: 100%;
+  margin-top: 0rem;
+  margin-left: 1rem;
+}
+main section article .posters {
+  height: auto;
+  width: 440px;
+  margin-left: 0.5rem;
+}
+main section article .posters img {
+  height: 100%;
+  width: 100%;
+}
+main section article .posters img:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+main section article .spotify {
+  height: 800px;
+  width: 400px;
+  margin-left: 3rem;
+}
+main section article .spotify iframe {
+  height: 75%;
+  width: 100%;
+}
+main section article .video {
+  height: 800px;
+  margin-left: 1rem;
+}
+main section article .video iframe {
+  margin-top: 1rem;
+  height: 30%;
+  width: 100%;
+}
+
+/*FOOTER*/
+footer {
+  background-image: linear-gradient(to left, #00FFFF, #FF00FF);
+  height: 12rem;
+  margin-top: 2rem;
+}
+footer div p {
+  font-size: 2rem;
+  margin-left: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  list-style: none;
+  margin: 2rem;
+}
+footer ul li img {
+  height: 4rem;
+}
+footer ul li:hover {
+  transform: scale(1.2);
+  transition: 200ms;
+}
+
+/*PAGES*/
+main section .playlist {
+  margin-left: 1.5rem;
+  width: 300px;
+  height: 700px;
+}
+main section .playlist iframe {
+  height: 100%;
+  width: 100%;
+}
+main section .playlist__text {
+  background-color: rgb(177, 255, 98);
+}
+main section .playlist__text p {
+  font-size: 3rem;
+  margin-left: 2rem;
+  font-family: fantasy;
+  color: black;
+}
+main section div .pelis_text {
+  font-size: 2.5rem;
+  font-family: fantasy;
+  text-decoration: none;
+  color: black;
+}
+main section .games {
+  width: 500px;
+  margin-left: 2rem;
+}
+main section .games img {
+  width: 100%;
+  height: 100%;
+}
+main section .game-title {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  width: 500px;
+  color: black;
+}
+main section .game-text {
+  font-size: 2rem;
+  font-family: fantasy;
+}
+main section .img-games:hover {
+  transform: scale(1.05);
+  transition: 100ms;
+}
+main section .contacto-container {
+  display: flex;
+  flex-direction: column;
+}
+main section .contacto-container p {
+  font-size: 3rem;
+  width: 800px;
+  font-family: "Russo One", sans-serif;
+  background-image: linear-gradient(to left, rgb(108, 194, 255), rgb(0, 110, 255));
+  padding: 3rem;
+  border: solid 0.2rem;
+}
+main section .links-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+main section .links-container .links:hover {
+  transform: scale(1.2);
+  transition: 300ms;
+}
+main section .links-container .links:hover a {
+  background-color: #00FFFF;
+}
+main section .links-container .links a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(72, 153, 253);
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  border: solid;
+  font-family: fantasy;
+}
+main .wakanda-container {
+  margin-left: 2rem;
+  width: 200px;
+}
+main .wakanda-container a {
+  font-size: 5rem;
+  color: black;
+  font-family: "Russo One", sans-serif;
+}
+main .wakanda-container:hover {
+  transform: scale(1.2);
+  transition: 300ms;
+}
+main .reseñas {
+  margin-left: 2rem;
+  color: black;
+}
+main .trailers {
+  width: 600px;
+  height: 400px;
+  margin-left: 6rem;
+}
+main .trailers iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /*HEADER*/
+  header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 14remS;
+  }
+  header nav .multimediando_logo {
+    height: 6rem;
+    width: 20rem;
+  }
+  header nav div {
+    background-image: linear-gradient(to left, #00FFFF, #FF00FF);
+  }
+  header nav div li {
+    margin-left: 3rem;
+  }
+  header nav div li:hover {
+    transform: scale(1.5);
+    transition: all 600ms;
+  }
+  header nav div li .nav_button {
+    height: 5rem;
+    width: 10rem;
+    margin-left: 4rem;
+  }
+  /*MAIN*/
+  main section article div a {
+    text-decoration: none;
+  }
+  main section article div h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: "Russo One", sans-serif;
+    background-image: linear-gradient(to right, rgb(36, 200, 255), rgb(111, 255, 111));
+    border: solid 0.5rem;
+    color: black;
+    width: 100%;
+    height: auto;
+  }
+  main section article div h2 {
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 300px;
+    height: 12rem;
+    background-color: aqua;
+    border: solid 0.2rem;
+    font-style: oblique;
+    padding: 1rem;
+  }
+  main section article div p {
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    font-family: "Bangers", cursive;
+    text-decoration: underline;
+    color: black;
+  }
+  main section article .img_container {
+    height: auto;
+    width: 50%;
+  }
+  main section article .img_container p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  main section article .img_container img {
+    height: 100%;
+    width: 100%;
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+  main section article .posters {
+    height: auto;
+    width: 440px;
+    margin-left: 0.5rem;
+  }
+  main section article .posters p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  main section article .posters img {
+    height: 100%;
+    width: 100%;
+  }
+  main section article .posters img:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+  main section article .spotify {
+    height: 700px;
+    width: 300px;
+    margin-left: 6rem;
+  }
+  main section article .spotify p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  main section article .spotify iframe {
+    height: 75%;
+    width: 100%;
+  }
+  main section article .video {
+    height: 800px;
+    margin-left: 1rem;
+  }
+  main section article .video p {
+    background-color: rgb(163, 255, 255);
+    border: solid 0.2rem;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  main section article .video iframe {
+    margin-top: 1rem;
+    height: 30%;
+    width: 100%;
+  }
+  main section article .playlist {
+    height: 100%;
+    width: 100%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    width: 300px;
+    height: 500px;
+  }
+  main section article .playlist iframe {
+    height: 100%;
+    width: 100%;
+  }
+  main section article .titulo {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  main section article .playlist__text {
+    background-color: rgb(177, 255, 98);
+  }
+  main section article .playlist__text p {
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-family: fantasy;
+    color: black;
+  }
+  main section .contacto-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  main section .contacto-container p {
+    font-size: 3rem;
+    width: 700px;
+    font-family: "Russo One", sans-serif;
+    background-image: linear-gradient(to left, rgb(108, 194, 255), rgb(0, 110, 255));
+    padding: 3rem;
+    border: solid 0.2rem;
+  }
+  main section .links-container {
+    margin-left: 0.1rem;
+    margin-top: 20rem;
+  }
+  /*FOOTER*/
+  footer {
+    margin-top: 40rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  /*HEADER*/
+  header {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 14remS;
+  }
+  header nav .multimediando_logo {
+    height: 6rem;
+    width: 20rem;
+  }
+  header nav div {
+    background-image: linear-gradient(to left, #00FFFF, #FF00FF);
+  }
+  header nav div li {
+    margin-left: 3rem;
+  }
+  header nav div li .nav_button {
+    height: 5rem;
+    width: 10rem;
+    margin-left: 4rem;
+  }
+  /*MAIN*/
+  main section article div a {
+    text-decoration: none;
+  }
+  main section article div h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: "Russo One", sans-serif;
+    background-image: linear-gradient(to right, rgb(36, 200, 255), rgb(111, 255, 111));
+    border: solid 0.5rem;
+    color: black;
+    width: 100%;
+    height: auto;
+  }
+  main section article div h2 {
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 300px;
+    height: 12rem;
+    background-color: aqua;
+    border: solid 0.2rem;
+    font-style: oblique;
+    padding: 1rem;
+  }
+  main section article div p {
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    font-family: "Bangers", cursive;
+    text-decoration: underline;
+    color: black;
+  }
+  main section article .img_container {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 2rem;
+  }
+  main section article .img_container p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  main section article .img_container img {
+    height: 100%;
+    width: 100%;
+    margin-top: 0rem;
+    margin-left: 1rem;
+  }
+  main section article .posters {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 2rem;
+  }
+  main section article .posters p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    padding: 1rem;
+  }
+  main section article .posters img {
+    height: 100%;
+    width: 100%;
+  }
+  main section article .posters img:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+  main section article .spotify {
+    height: 700px;
+    width: 300px;
+    margin-left: 6rem;
+  }
+  main section article .spotify p {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  main section article .spotify iframe {
+    height: 75%;
+    width: 100%;
+  }
+  main section article .video {
+    height: 800px;
+    margin-left: 1rem;
+  }
+  main section article .video p {
+    background-color: rgb(163, 255, 255);
+    border: solid 0.2rem;
+    width: 100%;
+    margin: 0;
+    margin-top: 5rem;
+    padding: 1rem;
+  }
+  main section article .video iframe {
+    margin-top: 1rem;
+    height: 30%;
+    width: 100%;
+  }
+  main section article .playlist {
+    height: 100%;
+    width: 100%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    width: 300px;
+    height: 500px;
+  }
+  main section article .playlist iframe {
+    height: 100%;
+    width: 100%;
+  }
+  main section article .titulo {
+    background-color: aquamarine;
+    border: solid 0.2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  main section article .playlist__text {
+    background-color: rgb(177, 255, 98);
+  }
+  main section article .playlist__text p {
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-family: fantasy;
+    color: black;
+  }
+  main section .contacto-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  main section .contacto-container p {
+    font-size: 3rem;
+    width: 300px;
+    font-family: "Russo One", sans-serif;
+    background-image: linear-gradient(to left, rgb(108, 194, 255), rgb(0, 110, 255));
+    padding: 3rem;
+    border: solid 0.2rem;
+  }
+  main section .links-container {
+    flex-direction: column;
+    margin-left: 0.1rem;
+    margin-top: 20rem;
+  }
+  main section .links {
+    margin-top: 5rem;
+  }
+}
+/* cambios de resolucion responsive */
+
+/*# sourceMappingURL=styles.css.map */
